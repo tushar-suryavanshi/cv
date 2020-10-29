@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    text-align: center;
+    /*centers everything inside the body element except those who are block viz.h1 and have width set*/
+    /*font-family: verdana,serif;
+    /*if browser doesnt support verdana then it will switch to serif*/
+    font-family: 'Merriweather', serif;
+    font-size: 120%;
+}
+
+h1 {
+    margin: 0px;
+    position: relative;
+    font-family: 'Sacramento', cursive;
+    /*font-size: 3em; /*if body is 20 px and h1 is 30 px then it wont matter to font size of h1.But if % has been included or em then h1 em wil be added to body em likewise %*/
+    font-size: 5rem;/*But if put rem then it ignore the parent block font size and takes relative to root size*/
+    /*width: 10%;
+    margin: 0 auto;
+    /*
+    margin: 1px or auto /*margin is set to 1px from all sides or auto i.e. centered
+    margin: 1px 2px or 1px auto /*top-bottom set to 1 px and right-left set to 2 px or top-bottom set to 1px and right-left set to auto
+    margin: 1px 20% 4px /*top set to 1px right-left set to 20% bottom set to 4px
+    margin: 0 auto 0 auto; /*top is 0 right is auto bottom is 0 left is auto
+    */
+    margin: 40px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+    line-height: 2;
+}
+
+a{
+    color:  #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+hr{
+    border-color: grey;
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 3%;
+}
+
+p{
+    line-height: 2;
+}
+/*
+.para1{
+    clear: left; /*by using clear it clears the left margin and will not be floated or wrapped around anything.
+}*/
+/*
+.para2{
+    clear: right;
+}*/
+
+.last{
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.btn{
+    background: #11999E;
+    /*background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);*/
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 30px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #11999E 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+
+.contactp{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.profile{
+    margin: 5% auto 5%;
+}
+
+.skills{
+    margin: 5% auto 5%;
+}
+
+.contact-me{
+    width: 35;
+    margin: 5% auto 4%;
+}
+
+.skill1{
+    width: 25%;/*keeps the width according to it parent*/
+    float: left;/*float puts the image on left and other following elements to its right*/
+    margin-right: 2%;
+}
+
+.skill2{
+    width: 25%;
+    float: right;
+    margin-left: 2%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.h2pro{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.code{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 100px;
+    right: 560px;
+
+}
+
+.cloud2 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+    /*height: 200px;
+    width: 200px;
+    border: 10px solid;
+    padding: 20px;*/
+
+}
+
+.middle-container {
+    
+    /*background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    margin-left: 260px;*/
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 35px 0 20px 0;
+
+    /*background-color: blue;
+    height: 200px;
+    width: 200px;
+    /*border: 10px solid;
+    margin-left: 500px;*/
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.first-p {
+    background-color: chocolate;
+    width: 100px;
+}
+
+.second-p {
+    background-color: darkgoldenrod;
+    display: inline;
+}
+
+.Hello {
+    background-color: blueviolet;
+    width: 100px;
+    display: inline-block;
+}
+
+.World {
+    background-color: darkgreen;
+    /*display: none;*/
+    visibility: hidden;
+}
+
+/*absolute position means adding margin to its parent element*/
+
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /*position: relative;/*element will be positioned relative to original position*/
+    /*top:50px;*/
+    /*pushes the div class from top to 50px downwards*/
+    /*display: inline-block; /*block element respects top bottom right left margin and uses full width if not defined. But inline block allows other elements to sit beside them.
+    left: 200px;*/
+    /*absolute position itself according to closest parent block
+    */
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    /*position: relative;
+    display: inline-block;
+    right: 100px;*/
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    /*position: relative;
+    display: inline-block;
+    right: 100px;*/
+    /*position: absolute;*/
+    position: fixed;
+    /*by giviing fixed position that element or class will stay fixed at that position even though you scroll up/down*/
+}
